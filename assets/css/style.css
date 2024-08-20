@@ -1,0 +1,20 @@
+*,body{
+    margin: 0;
+    padding: 0;
+    background-color: #95BF74;
+}
+
+.startGame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F5CB5C;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    border: 1.5px solid #483D3F ;
+    font-size: 30px;
+    font-weight: 400;
+    background-color:#058ED9;
+
+}
