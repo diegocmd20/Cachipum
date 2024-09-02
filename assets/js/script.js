@@ -1,5 +1,6 @@
-$(document).ready(function () {
-  $(".startGame").click(function () {
+let startGame = document.getElementsByClassName("startGame")[0];
+
+startGame.addEventListener("click", function () {
     let cantidadJuegos = parseInt(prompt("¿Cuántas veces vas a jugar?"));
     let victoria = 0;
     let derrota = 0;
@@ -59,4 +60,3 @@ $(document).ready(function () {
       `Resultados finales: Victorias: ${victoria} Derrotas: ${derrota} Empates: ${empate}`
     );
   });
-});
